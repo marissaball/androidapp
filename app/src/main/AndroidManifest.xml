@@ -15,14 +15,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-            <activity android:name=".LeftEar"
-                android:label="Left Ear"/>
-            <activity android:name=".RightEar"
-                android:label="Right Ear"/>
-            <activity android:name=".Medication"
-                android:label="Medication Taken"></activity>
-
+        <activity
+            android:name=".LeftEar"
+            android:label="Left Ear" />
+        <activity
+            android:name=".RightEar"
+            android:label="Right Ear" />
+        <activity
+            android:name=".Medication"
+            android:label="Medication Taken" />
+        <activity android:name=".SymptomsActivity"
+            android:label="Symptoms"></activity>
     </application>
 
 </manifest>

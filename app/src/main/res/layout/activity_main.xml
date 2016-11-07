@@ -19,6 +19,16 @@
         android:layout_alignParentStart="true">
 
         <TextView
+            android:text="Symptoms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/symptoms"
+            android:fontFamily="casual"
+            android:textSize="40sp"
+            android:textAlignment="center"
+            android:textColor="?android:attr/colorBackground" />
+
+        <TextView
             android:text="Left Ear"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -26,8 +36,8 @@
             android:textSize="60sp"
             android:textAlignment="viewStart"
             android:fontFamily="casual"
-            android:textColor="?android:attr/colorActivatedHighlight"
-            android:onClick="leftClickFunction"/>
+            android:textColor="?android:attr/colorActivatedHighlight" />
+            <!--android:onClick="leftClickFunction"/>-->
 
         <TextView
             android:text="Right Ear"
@@ -37,18 +47,20 @@
             android:textSize="60sp"
             android:textAlignment="textEnd"
             android:fontFamily="casual"
-            android:textColor="@android:color/holo_purple"
-            android:onClick="rightClickFunction"/>
+            android:textColor="@android:color/holo_purple"/>
+            <!--android:onClick="rightClickFunction"/>-->
 
         <TextView
             android:text="Medication Taken"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView3"
+            android:id="@+id/medication"
             android:fontFamily="casual"
             android:textSize="40sp"
             android:textAlignment="center"
-            android:textColor="?android:attr/colorBackground"
-            android:onClick="medicationClickFunction"/>
+            android:textColor="?android:attr/colorBackground"/>
+            <!--android:onClick="medicationClickFunction"/>-->
+
+
     </LinearLayout>
 </RelativeLayout>

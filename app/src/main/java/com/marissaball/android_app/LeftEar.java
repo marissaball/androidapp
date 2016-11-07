@@ -10,4 +10,6 @@ public class LeftEar extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_left_ear);
     }
+
+
 }
