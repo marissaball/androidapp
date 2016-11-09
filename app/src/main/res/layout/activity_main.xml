@@ -26,7 +26,7 @@
             android:fontFamily="casual"
             android:textSize="40sp"
             android:textAlignment="center"
-            android:textColor="?android:attr/colorBackground" />
+            android:textColor="?android:attr/textColorSecondary" />
 
         <TextView
             android:text="Left Ear"
@@ -58,8 +58,8 @@
             android:fontFamily="casual"
             android:textSize="40sp"
             android:textAlignment="center"
-            android:textColor="?android:attr/colorBackground"/>
-            <!--android:onClick="medicationClickFunction"/>-->
+            android:textColor="?android:attr/textColorHint"/>
+        <!--android:onClick="medicationClickFunction"/>-->
 
 
     </LinearLayout>
